@@ -6,7 +6,6 @@
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
-    --color-result: yellowgreen;
 }
 
 /* Estilos gerais */
@@ -162,8 +161,4 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
-}
-
-.nomeEscolhido {
-    color: var(--color-result);
 }
