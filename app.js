@@ -31,9 +31,11 @@ if (listaAmigos.length === 0) {
    let numeroEscolhido = Math.floor(Math.random() * listaAmigos.length);
    let nomeEscolhido = listaAmigos [numeroEscolhido];
    TextoResultado('h2',`O nome sorteado é: ${nomeEscolhido}`);
+   listaAmigos = [];
 }
 
 function reiniciarSorteio() {
     TextoInicial();
     listaAmigos = [];
     }
+
